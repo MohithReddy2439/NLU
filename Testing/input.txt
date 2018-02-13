@@ -1,0 +1,22 @@
+Case#1:
+Can you please set an alarm at 3 pm tomorrow
+Case#2:
+Create tomorrow 8 pm event at Bengaluru
+Case#3:
+ I want you to make tomorrow 9 O'clock morning event
+Case#4:
+Can you make a call to Amitabh for me
+Case#5:
+Update me about weather in New York thanks
+Case#6:
+Send an email to Rahul Dravid
+Case#7:
+Can you tell me when will it rain in Bengaluru after 6 a.m. tomorrow
+Case#8:
+Find out What is time in London now thanks
+Case#9:
+What is time now
+Case#10:
+What is date today
+Case#11:
+Can you book a flight ticket on 14 February from Bengaluru to Varanasi
