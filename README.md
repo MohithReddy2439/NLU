@@ -1,4 +1,4 @@
-{NLU-Pattren Matching Algorithm}
+{NLU-Pattren Matching Algorithm} Note:This not problem description for problem description check "Problem.docx"
 
 __________________________________
 PreRequsites,Algorithm Description|
@@ -77,7 +77,7 @@ Take CreateAlarmWithTime as example while storing its grammar syntax Alarm keywo
 
 But Articles Prepositions in command name are going to effect accuracy so to eliminate that ArPr.txt file is used which has list of commonly used artciles and prepositions
 
-Finally after finding result it is written to "output.txt" file
+Finally after finding result it is written to "Testing/output.txt" file
 
 
 
