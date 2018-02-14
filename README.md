@@ -1,4 +1,4 @@
-{NLU-Pattren Matching Algorithm} Note:This not problem description for problem description check "Problem.docx"
+{NLU-Pattren Matching Algorithm} Note:This is not problem description for problem description check "Problem.docx"
 
 __________________________________
 PreRequsites,Algorithm Description|
