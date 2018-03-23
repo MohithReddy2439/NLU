@@ -18,7 +18,6 @@ Testing-: cat -e should output (content)$ but not (content) $ or (content)'\r''\
 
 4)When Another language which has same script as english is used application may not recognise dateTime , time , day , date because the english months and weeks are hardcoded
 
-5)./a.out should be run only from NLU directory since relative paths are used 
 ______________________
 Alogorthim Description|
 ______________________|
