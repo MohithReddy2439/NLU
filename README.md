@@ -1,12 +1,12 @@
 {NLU-Pattren Matching Algorithm} Note:This is not problem description for problem description check "Problem.docx"
 
 __________________________________
-PreRequsites,Algorithm Description|
-__________________________________|
+PreRequsites,Algorithm Description
+__________________________________
 
 _____________
-PreRequisites|
-_____________|
+PreRequisites
+_____________
 
 1)We Expect all files to be in Unix Format.
 
@@ -19,13 +19,13 @@ Testing-: cat -e should output (content)$ but not (content) $ or (content)'\r''\
 4)When Another language which has same script as english is used application may not recognise dateTime , time , day , date because the english months and weeks are hardcoded
 
 ______________________
-Alogorthim Description|
-______________________|
+Alogorthim Description
+______________________
 
 Whole code can be broke out in 6 parts
 ______________________
-1)Declaring Structures|
-______________________| 
+1)Declaring Structures
+______________________ 
 
 Four Structures PlaceHolder,Grammar,Concept,Input are defined 
 
@@ -35,26 +35,26 @@ Grammar is used to store command name ,concepts , placeholders in definition of 
 
 Concept is used to store concept name and it synonms 
 ________________________________________________
-2)Processing Concept Directory to learn concepts|
-________________________________________________|
+2)Processing Concept Directory to learn concepts
+________________________________________________
 
 dirent.h is used to open Concept directory and view files and in return the file names are used to open files and store contents of it in Concept Structure
 
 __________________________________________________________________
-3)Processing Grammar Directory to leran Grammar Rules and syntaxes|
-__________________________________________________________________|
+3)Processing Grammar Directory to leran Grammar Rules and syntaxes
+__________________________________________________________________
 
 Grammar Directory is opend to view files and placeholders,concepts of each command and each possible definiton of command stored in systamatic order
 
 ________________________________________________________
-4)Processing PlaceHolder Directory to learn placeholders|
-________________________________________________________|
+4)Processing PlaceHolder Directory to learn placeholders
+________________________________________________________
 
 PlaceHolder/PlaceHolderDetail.txt is opened to know possible placeholder and if it demands for FileLookup corresponding file is opened to copy its contents
 
 ______________________________
-5)Processing Testing/input.txt|
-______________________________|
+5)Processing Testing/input.txt
+______________________________
 
 input.txt file is opened to know queries and if "Case#" is there that line is skiped assuming it as comment and remaining lines are copied for future use
 
@@ -63,8 +63,8 @@ Every line is checked across every placeholder concept to recognise possible pla
 We limited ourself to identify placeholder which are of type codded , we hardcoded all english months and weeks to check the existense of dateTime,time,date,day placeholders
 
 ___________________________________________________________________________________
-6)Comparing Input Structres with Grammar Syntaxes and Writing Results to output.txt|
-___________________________________________________________________________________|
+6)Comparing Input Structres with Grammar Syntaxes and Writing Results to output.txt
+___________________________________________________________________________________
 
 6 important variables to know are cncont(concept contribution),cmcont(command contribution), phcont(placeholder contribution) ,cmweight(command weight),cnweight(concept contribution),phweight(placeholder weight)
 
